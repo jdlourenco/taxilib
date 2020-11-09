@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from taxilib.distances import haversine
+
+if __name__ == '__main__':
+	lon1 = 13
+	lat1 = 1
+	lon2 = 15
+	lat2 = 63
+	distance = haversine(lon1, lat1, lon2, lat2)
+	print(f"distance from ({lon1, lat1}) to ({lon2, lat2}) is {distance}")

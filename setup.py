@@ -12,5 +12,5 @@ setup(name='taxilib',
       test_suite = 'tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/taxilib-run'],
+      scripts=['scripts/taxilib-run', 'scripts/taxilib-compute-haversine'],
       zip_safe=False)
