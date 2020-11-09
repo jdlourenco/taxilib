@@ -1,0 +1,1 @@
+web: pip install . && taxilib-compute-haversine
